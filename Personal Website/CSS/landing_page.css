@@ -1,0 +1,66 @@
+/* import fonts.css */
+@import url(./Fonts.css);
+
+/* import css variables*/
+@import url(./partials/_variables_.css);
+
+/* import global styling*/
+@import url(./partials/_global.css);
+
+/* body background styling and animation */
+body {
+    background: linear-gradient(-45deg, #ebbfb2,#30eeb5, #0a1344, #03022c);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+
+}
+
+@keyframes gradient { 
+    0% {
+        background-position: 0% 25%;
+    }
+    25% {
+        background-position: 25% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 25% 50%;
+    }
+    100% {
+        background-position: 0% 25%;
+    }
+}
+
+/* Background Animation End */
+
+/* Landing Area Styling */
+
+.landing-site-main .landing-area{
+    padding: 20rem 0rem;
+}
+
+.landing-site-main .landing-area .landing-title h1{
+    display: block;
+    padding: 0rem 1.2rem;
+    font: normal bold 49px var(--Nunito);
+    color: var(--text-color);
+}
+
+.landing-site-main .landing-area .social-icons{
+    display: block;
+    padding: 0rem 1.2rem;
+    font: normal bold 49px var(--Nunito);
+    color: var(--text-color);
+}
+
+/* End Landing Area */
+
+/* Start Footer Area Styling*/
+
+
+
+
+
+

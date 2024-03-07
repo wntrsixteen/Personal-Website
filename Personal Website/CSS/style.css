@@ -1,0 +1,111 @@
+/*import fonts from fonts.css*/
+@import url(./Fonts.css);
+
+/* import css variables*/
+@import url(./partials/_variables_.css);
+
+/* import global styling*/
+@import url(./partials/_global.css);
+
+/*start navigation*/
+
+.header-area .main-menu .navbar .navbar-brand{
+  padding: 0 2rem 0 5rem
+}
+
+.header-area .main-menu .navbar{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 20px rgba(158, 157, 157, 0.315);
+  padding: 1rem 20rem
+}
+
+.header-area .main-menu .nav-item .nav-link{
+  font: normal 500 15px/2px var(--Nunito);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color)
+}
+
+.header-area .main-menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+/*end navigation*/
+
+/* Banner Area */
+
+.site-main .site-banner{
+  background: url(./images/simplebanner.png) no-repeat 0% 50%;
+  
+}
+
+.site-main .site-banner .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+
+}
+
+.site-main .site-banner .site-title h3::after{
+  content: " ";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+/* End Banner Area*/
+
+/* About me Area */
+
+.site-main .about-area{
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+  display: block;
+  font: normal bold 49px/ 60px var(--Nunito);
+}
+
+.site-main .about-area .about-title .paragraph > p{
+  padding: .4rem 0;
+}
+/* End About me Area */
+
+/* Start Service Area */
+
+.site-main .service-area{
+  padding: 8rem 5rem;
+}
+
+.site-main .service-area .service-title h5 > span{
+  display: block;
+  font: normal bold 49px/ 60px var(--Nunito);
+}
+
+/* End Service Area */
